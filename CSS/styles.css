@@ -1,0 +1,168 @@
+main{
+    min-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    color: #095edd;
+    text-align: center;
+    width: 500px;
+    padding: 4px;
+    overflow: hidden;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(to left, red, black);
+    border-radius: 200px;
+}
+a:focus{
+    /* background: rgb(8, 107, 183); */
+    color: rgb(251, 251, 252);
+}
+a:active{
+    border: 3px solid #000000;
+}
+li{
+    font-size: 30px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.current{
+    text-transform: uppercase;
+    color: rgb(59, 5, 255);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, black, blue);
+    text-align: center;
+    border-radius: 200px;
+}
+#mainLogo{
+    border: 5px solid #c6c6da;
+    display: block;
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+
+}
+.thumb{
+    border: 1px solid #0006CC;
+    width: 20%;
+    height: 20%;
+}
+.Tung{
+    font-size: 50px;
+    display: block;
+    margin-left: 33%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to bottom, rgb(3, 3, 254), yellow);
+    background-clip: text;
+    color: transparent;
+}
+.subText{
+    font-size: 40px;
+    display: block;
+    margin-left: 200px;
+    font-weight: 300px;
+    font-style: italic;
+    background-image: linear-gradient(to right, rgb(4, 96, 234), rgb(8, 227, 223));
+    /* display: inline-block; */
+    padding-right: 50px;
+    border-radius: 200px;
+    background-clip: text;
+    color: transparent;
+
+}
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+   
+
+}
+.gallery-grid >div{
+    background-color: rgb(196, 188, 188);
+    border: 1px rgb(104, 104, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+.gallery-grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+    
+}
+.body{
+    background: black;
+}
+.fora{
+    text-decoration: none;
+    color: rgb(10, 168, 226);
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.BoPc{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(235, 235, 239)   
+}
+.Tung1{
+    font-size: 50px;
+    display: block;
+    margin-left: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(63, 63, 171);
+    opacity: inherit;  
+}
+.bmw-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.bmw-grid > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+.bmw-grid img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.fightjetHeader{
+    font-size: 50px;
+    font-weight: 1000;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to bottom, blue, grey);
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#Sukhoilogo{
+    border: 5px solid #fc0606;
+    display: block;
+    width: 1000px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+}

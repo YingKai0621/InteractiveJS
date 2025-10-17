@@ -1,0 +1,14 @@
+main{
+    background-image: url(../image/wave.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer{
+    background-image: url(../image/wave.jpg);
+    height: 500px;
+    background-size: 1000px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
